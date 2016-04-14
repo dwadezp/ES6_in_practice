@@ -1,3 +1,9 @@
 import Element from './Element.js';
+import InputElement from './InputElement.js';
+
+let testForm = new Element("form", "<form></form>");
+let testInput = new InputElement("password", "<input></input>", "password");
 debugger;
-var element = new Element('newForm', '<div></div>');
+testForm.draw("body");
+testInput.draw("form");
+
